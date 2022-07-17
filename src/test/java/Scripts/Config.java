@@ -54,7 +54,7 @@ public class Config {
 		if(strPageTitle.equalsIgnoreCase("Google"))
 		{
 			System.out.println("Title of the page is: "+strPageTitle);
-			System.out.println("Sandeep");
+			System.out.println("Checking Docker Image creation through Jenkins");
 
 		}
 		else
