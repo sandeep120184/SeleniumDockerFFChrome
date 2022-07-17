@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumDocker" duration-ms="33043" started-at="2022-07-17T10:29:45 GST" finished-at="2022-07-17T10:30:18 GST">
+    <groups>
+    </groups>
+    <test name="TitleFirefox" duration-ms="17815" started-at="2022-07-17T10:29:45 GST" finished-at="2022-07-17T10:30:03 GST">
+      <class name="Scripts.Config">
+        <test-method status="PASS" signature="browerSetup(java.lang.String)[pri:0, instance:Scripts.Config@56dfcb]" name="browerSetup" is-config="true" duration-ms="17580" started-at="2022-07-17T10:29:45 GST" finished-at="2022-07-17T10:30:03 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browerSetup -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:Scripts.Config@56dfcb]" name="testA" duration-ms="56" started-at="2022-07-17T10:30:03 GST" finished-at="2022-07-17T10:30:03 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Scripts.Config@56dfcb]" name="teardown" is-config="true" duration-ms="115" started-at="2022-07-17T10:30:03 GST" finished-at="2022-07-17T10:30:03 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Scripts.Config -->
+    </test> <!-- TitleFirefox -->
+    <test name="TitleChrome" duration-ms="33043" started-at="2022-07-17T10:29:45 GST" finished-at="2022-07-17T10:30:18 GST">
+      <class name="Scripts.Config">
+        <test-method status="PASS" signature="browerSetup(java.lang.String)[pri:0, instance:Scripts.Config@2d45ba]" name="browerSetup" is-config="true" duration-ms="28121" started-at="2022-07-17T10:29:45 GST" finished-at="2022-07-17T10:30:13 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browerSetup -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:Scripts.Config@2d45ba]" name="testA" duration-ms="50" started-at="2022-07-17T10:30:13 GST" finished-at="2022-07-17T10:30:13 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Scripts.Config@2d45ba]" name="teardown" is-config="true" duration-ms="4866" started-at="2022-07-17T10:30:13 GST" finished-at="2022-07-17T10:30:18 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Scripts.Config -->
+    </test> <!-- TitleChrome -->
+  </suite> <!-- SeleniumDocker -->
+</testng-results>

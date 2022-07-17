@@ -1,0 +1,27 @@
+  version: '3'
+  services:
+    selenium_hub:
+      image: selenium/hub:3.141.59
+      ports:
+        - "4444:4444"
+      container_name: sandy-hub  
+    selenium-chrome:
+      image: selenium/node-chrome-debug
+      ports:
+        - "5901:5900"
+      environment:
+        - HUB_HOST=selenium_hub
+        - HUB_PORT=4444
+      container_name: sandy-chrome-node 
+      depends_on:
+        - selenium_hub
+    selenium-firefox:
+      image: selenium/node-firefox-debug
+      ports:
+        - "5902:5900"
+      environment:
+        - HUB_HOST=selenium_hub
+        - HUB_PORT=4444
+      container_name: sandy-firefox-node 
+      depends_on:
+        - selenium_hub
