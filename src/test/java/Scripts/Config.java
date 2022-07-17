@@ -54,7 +54,7 @@ public class Config {
 		if(strPageTitle.equalsIgnoreCase("Google"))
 		{
 			System.out.println("Title of the page is: "+strPageTitle);
-			System.out.println("Sandeep Pooja");
+			System.out.println("Sandeep");
 
 		}
 		else
